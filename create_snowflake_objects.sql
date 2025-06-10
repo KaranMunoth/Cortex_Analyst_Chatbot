@@ -71,3 +71,9 @@ CREATE OR REPLACE TABLE cortex_analyst_demo.revenue_timeseries.region_dim (
     sales_region VARCHAR(16777216),
     state VARCHAR(16777216)
 );
+
+-- Step 1: Switch to ACCOUNTADMIN role
+USE ROLE ACCOUNTADMIN;
+
+-- Step 2a: Enable Cortex cross-region access for a specific region (e.g., AWS_US)
+ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'AWS_US';
