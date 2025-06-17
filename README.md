@@ -90,3 +90,10 @@ Example measure:
   expr: revenue - cogs
   description: profit is the difference between revenue and expenses
   data_type: number
+
+## 🧠 Example Questions to Ask the Assistant
+
+- Compare actual vs forecasted revenue by month for 2024.  
+- Show total profit by region and product line in descending order.  
+- Which product lines had revenue below $5,000 in March 2024?
+
