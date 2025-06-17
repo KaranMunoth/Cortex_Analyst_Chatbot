@@ -73,6 +73,11 @@ In this quickstart, you'll learn how to:
 > 🔍 The `get_analyst_response` function handles all API calls to the Cortex Analyst service.
 
 ---
+## 🧠 Example Questions to Ask the Assistant
+
+- Compare actual vs forecasted revenue by month for 2024.  
+- Show total profit by region and product line in descending order.  
+- Which product lines had revenue below $5,000 in March 2024
 
 ## Step 6: Define the Semantic Model
 
@@ -91,9 +96,5 @@ Example measure:
   description: profit is the difference between revenue and expenses
   data_type: number
 
-## 🧠 Example Questions to Ask the Assistant
 
-- Compare actual vs forecasted revenue by month for 2024.  
-- Show total profit by region and product line in descending order.  
-- Which product lines had revenue below $5,000 in March 2024?
 
